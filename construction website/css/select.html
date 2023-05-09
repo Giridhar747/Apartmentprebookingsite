@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Three Combo Boxes in the Center</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		
+		.combo-box {
+			width: 250px;
+			margin: 0 20px;
+			padding: 10px;
+			border: 1px solid black;
+			border-radius: 5px;
+			background-color: #f1f1f1;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="combo-box">
+			<h2>LOCATION</h2>
+			<select name="combo1">
+                <option value="option1">LOCATION</option>
+				<option value="option2">CHENNAI</option>
+				<option value="option3">KUNDRATHUR</option>
+				<option value="option4">BANGLORE</option>
+                <option value="option5">HYDERABAD</option>
+                <option value="option6">DELHI</option>
+                <option value="option7">MUMBAI</option>
+			</select>
+		</div>
+		<div class="combo-box">
+			<h2>PROJECT TYPE</h2>
+			<select name="combo2">
+                <option value="option1">PROJECT TYPE</option>
+				<option value="option2">VILLA</option>
+				<option value="option3">APARTMENT</option>
+				<option value="option4">PLOTS</option>
+			</select>
+		</div>
+		<div class="combo-box">
+			<h2>PROJECT STATUS</h2>
+			<select name="combo3">
+				<option value="option1">NEW LAUNCH</option>
+				<option value="option2">PROJECT STATUS</option>
+					<option value="option3">UNDER CONSTRUCTION</option>
+                    <option value="option4">READY TO OOCUPY</option>
+                    <option value="option5">NEARLY COMPLETION</option>
+			</select>
+		</div>
+	</div>
+</body>
+</html>

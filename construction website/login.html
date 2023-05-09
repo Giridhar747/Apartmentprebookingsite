@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+     <form>
+        <h1>LOGIN</h1>
+        <label> USERNAME</label>
+        <input type="text">
+        <label>PASSWORD</label>
+        <input type="password">
+        <a href="construction.html"><button>LOGIN</a></button>
+        <a> FORGET PASSWORD?</a>
+    </form>
+    <script>
+    function validate() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username === "GIRISH" && password === "GIRISH123") {
+          alert("Login successful!");
+          // Redirect to another page here
+        } else {
+          alert("Invalid username or password. Please try again.");
+        }
+      }
+      </script>   
+</body>
+</html>

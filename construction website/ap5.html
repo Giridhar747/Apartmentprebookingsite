@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>villa 1</title>
+  <script src="https://kit.fontawesome.com/cb35445013.js" crossorigin="anonymous"></script>
+  <style>
+ .product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: grey;
+}
+.product-image {
+  flex: 1;
+  margin-right: 20px;
+  position: relative;
+
+}
+.product-image img {
+ width: 600px;
+  height: 600px;
+  margin-bottom: 0px;
+}
+.product-description {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: grey;
+  margin-left: 50px;
+  
+}
+.product-description h1{
+text-align:center;
+}
+h1 {
+  font-size: 1.5rem;
+  margin-bottom:5px;
+  color: #ffa200;
+  font-size: xx-large;
+  
+}
+.description {
+  font-size: top ;
+  margin-bottom: 10px;
+}
+.add-to-cart {
+  margin-left: 300px;
+  background-color: #ffa200;
+  width: 500px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.add-to-cart:hover {
+  transform: scale(1.1);
+}
+.floor{
+  margin-left:600px;
+  background-color:#eceaab;
+}
+.fram{
+  margin-left: 600px;
+  width: 450px;
+  height: 410px;
+}
+.des{
+  background-color:#eceaab;
+
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.des p{
+  margin-left: 300px;
+}
+.des img{
+  width: 700px;
+  height: 600px;
+}
+ul{
+  color: #ffffff;
+  font-size: xx-large;
+}
+body{
+  line-height: 1.5;
+  font-family: 'poppins',sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+  max-height: 600px;
+  margin-left: 100px;
+  box-sizing: border-box;
+  max-width: 940px;
+}
+.row{
+	display: flex;
+  width: 1500px;
+  max-height: 600px;
+}
+ul{
+  font-size: 30px;
+	list-style-type:circle;
+}
+.footer{
+	background-color: #24262b;
+    max-height: 600px;
+}
+.footer-col{
+  margin-left: 0px;
+  margin-right: 100px;
+   width: 25%;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.descr1{
+  margin-left: 50px;
+  height: 500px;
+}
+.descr1 ul{
+  color: #000000;
+  font-size: 25px;
+  list-style-type: circle;
+}
+.floor1{
+  background-color:#eceaab;
+  margin-top: 0px;
+}
+.floor2{
+  text-align: center;
+}
+
+@media(max-width:767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width:574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="product">
+  <div class="product-image">
+    <img src="v11.png" alt="Product Image">
+  </div>
+  <div class="product-description">
+    <h1>LUXERIA VILLA</h1>
+    <ul id="ul1">
+      <li> LOCATED IN KOZHIKODE </li>
+      <li> 4 BHK VILLAS</li>
+      <li> 3000sqft BUILT-UP AREA</li>
+      <li> 71 LAKHS CRORES ONWARDS</li>
+      <li> MARVELOUS INTERIOR DESIGNES</li>
+      <li> JUST 5 MIN FROM KOZHIKODE BEACH</li>
+      <li> PRE BOOKING AT JUST EIGHTY FIVE THOUSAND ONLY!</li>
+    </ul>
+    <p class="price"></p>
+    <p class="description">  </p>
+    <a href="creditcard.html"><button class="add-to-cart">book your apartment</button></a>
+  </div>
+</div>
+<div class="floor1">
+<div class="floor">
+  <h1> LUXERIA HIGHLIGHTS</h1>
+</div>
+<div class="des">
+  <img src="v111.png" alt="des"/>
+  <div class="descr1">
+  <ul >
+    <li>243 beautifully crafted 3 &4 BHK villas on 11 acres in 10 minutes from Kozhikode</li>
+    <li>Premium villa community offering an extensive choice of independent villas & villas.</li>
+    <li>Villas planned with an exclusive 10 ft wide private backyard for outdoor activities.</li>
+    <li>60% open space in the community for undisturbed light & ventilation.</li>
+    <li>Safe & secure community with the best of architecture, amenities & finesse,</li>
+    <li>Community offers 50 – lifestyle amenities & features like 6,000 sq.fe grand swimming pool, futsal court, amphitheater, interactive gym, children’s play area & many interesting amenities.</li>
+    <li>A lavish 17,000 sq.ft clubhouse loaded with indoor & terrace amenities</li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="floor2">
+  <h1>FLOOR PLAN</h1>
+</div>
+<div><iframe class="fram" src="slideshow.html"></iframe>
+</div>
+
+  <script>
+const addToCartBtn = document.querySelector('.add-to-cart');
+addToCartBtn.addEventListener('click', addToCart);
+
+function addToCart() {
+  // Add product to cart logic
+  alert('congragulations you have selected your villa !');
+}
+</script>
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#"></a>about us</li>
+                    <li><a href="#"></a>our service</li>
+                    <li><a href="#"></a>privacy</li>
+                    <li><a href="#"></a>affiliate program</li>
+                </ul>
+              </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#"></a>FAQ</li>
+                        <li><a href="#"></a>shipping</li>
+                        <li><a href="#"></a>order status</li>
+                        <li><a href="#"></a>payment option</li>
+                    </ul>
+                  </div>
+                       <div class="footer-col">
+                          <h4>mechandise</h4>
+                          <ul>
+                              <li><a href="#"></a><i class="fa fa-trowel-bricks"></i> bricks</li>
+                              <li><a href="#"></a>cement</li>
+                              <li><a href="#"></a>steel</li>
+                              <li><a href="#"></a>AAC blocks</li>
+                          </ul>
+                      </div>
+                            <div class="footer-col">
+                              <h4>follow us</h4>
+                              <ul>
+                                  <li><a href="#"></a> <i class="fa fa-brands fa-facebook-f"></i> facebook</li>
+                                  <li><a href="#"></a><i class="fa fa-brands fa-twitter"></i> twitter</li>
+                                  <li><a href="#"></a><i class="fa fa-brands fa-instagram"></i> instagram</li>
+                                  <li><a href="#"></a><i class="fa fa-brands fa-whatsapp"></i> whatsapp</li>
+                                  <li><a href="#"></a><i class="fa fa-brands fa-linkedin"></i> linkedin</li>
+                              </ul>
+            </div>
+          </div>
+    </div>
+</footer>
+</body>
+</html>

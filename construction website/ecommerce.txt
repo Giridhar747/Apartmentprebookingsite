@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Ecommerce Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>My Ecommerce Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="products">
+			<h2>Shop</h2>
+			<div class="product">
+				<img src="product1.jpg" alt="Product 1">
+				<h3>Product 1</h3>
+				<p>Description of product 1.</p>
+				<p>$19.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="product2.jpg" alt="Product 2">
+				<h3>Product 2</h3>
+				<p>Description of product 2.</p>
+				<p>$24.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="product3.jpg" alt="Product 3">
+				<h3>Product 3</h3>
+				<p>Description of product 3.</p>
+				<p>$29.99</p>
+				<button>Add to Cart</button>
+			</div>
+		</section>
+	</main>
+	<footer>
+    <script
+		<p>&copy; My Ecommerce Website 2023</p>
+	</footer>
+    const buttons = document.querySelectorAll('.product button');
+
+buttons.forEach(button => {
+	button.addEventListener('click', () => {
+		alert('Added to cart!');
+	});
+});
+
+</body>
+</html>
